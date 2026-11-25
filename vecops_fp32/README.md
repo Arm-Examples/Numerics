@@ -10,8 +10,8 @@ The `ssve.h` header contains a set of basic vector operations implemented with A
 | `power_cf32` | Outputs L2 norm for each complex element. |
 | `conj_scale_cf32` | Applies complex conjugation and then scales by a real scalar. |
 | `dot_cf32` | Complex inner product without conjugation. |
-| `conj_mul_cf32` | Multiplies `conj(a)` by `b` element-wise. |
-| `conj_dot_cf32` | Conjugate complex dot product. |
+| `conj_mul_cf32` | Multiplies `a` by `conj(b)` element-wise. |
+| `conj_dot_cf32` | Conjugate complex dot product (`sum(a * conj(b))`). |
 | `mul_f32` | Real element-wise multiply. |
 | `scale_f32` | Scalar multiply operation. |
 | `dot_f32` | Real dot product reduced into `c[0]`. |
